@@ -20,15 +20,15 @@ void exibirMenu(Usuario **inicio)
         switch (opcao)
         {
             case 1: {
-                char nome[MAx], email[MAx];
+                char nome[MAX], email[MAX];
                 int idade;
 
                 printf("Nome: ");
-                fgets(nome, MAx, stdin);
+                fgets(nome, MAX, stdin);
                 nome[strcspn(nome, "\n")] = 0;
 
                 printf("Email: ");
-                fgets(email, MAx, stdin);
+                fgets(email, MAX, stdin);
                 email[strcspn(email, "\n")] = 0;
 
                 printf("Idade: ");
